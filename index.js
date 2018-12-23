@@ -20,6 +20,6 @@ function deleteFromObjectByKey(object, key){
 
 function destructivelyDeleteFromObjectByKey(object, key) {
   const temp={object};
-  delete object.key;
+  delete object[key];
   return temp;
 }
