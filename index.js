@@ -1,8 +1,8 @@
 function objects(){
-  var object={"key":"value"};
+  var recipes ={"key":"value"};
 } 
 
 function updateObjectWithKeyAndValue(object, key, value) {
-    return Object.assign({object}, {key:value});
+    return Object.assign({recipes}, {key:value});
  //object[key]=value;
   }
