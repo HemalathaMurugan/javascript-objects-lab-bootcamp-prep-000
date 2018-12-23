@@ -1,7 +1,7 @@
 function objects(){
-  var recipes={};
+  var recipes={"typeOf":"object"};
 } 
 
 function updateObjectWithKeyAndValue(object, key, value) {
-  
+  object={
 }
