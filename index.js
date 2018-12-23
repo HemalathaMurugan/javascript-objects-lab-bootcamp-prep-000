@@ -1,5 +1,5 @@
 function objects(){
-  var obje={"key":"value"};
+  var object={"key":"value"};
 } 
 
 function updateObjectWithKeyAndValue(object, key, value) {
